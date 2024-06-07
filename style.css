@@ -1,0 +1,276 @@
+/*------------------------------
+navbar starts here
+--------------------------------- */
+
+body,html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav{
+  width: 100%;
+  height: 100%; 
+  background-color: #FFEA00;
+}
+.header {
+    background-color: #FFEA00;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+  margin-right: 22%;
+  margin-left: 50px 
+}
+img.img-logo {
+  width: 167px;
+}
+nav li {
+    display: inline-block;
+    margin-right: 40px;
+    font-weight: 600;
+  }
+  
+#navbarNav{
+    margin-left: 20px;
+  }
+  a.nav-link.active {
+    width: 162%;
+}
+.header-buttons {
+    display: flex;
+    gap: 10px;
+    margin-left: 66px;
+}
+
+.Primary-button {
+    
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+.Primary-button {border-radius: 52px;}
+
+.Primary-button:hover {
+    background-color: black;
+}
+.secondary-button {
+   
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+.secondary-button {border-radius: 52px;}
+
+.secondary-button:hover {
+    background-color: black;
+    color: white;
+}
+
+.Primary-button {
+    
+    color: black; 
+    border: 2px solid black;
+    height:40px;
+    width:133px;
+  }
+  
+  .Primary-button:hover {
+   
+    color: white;
+  }
+  
+  .secondary-button{
+   
+    color: black; 
+    border: 2px solid #0b0c0c;
+    height:40px;
+    width:160px;
+  }
+  
+  .secondary-button {
+   
+    color: black;
+  }
+
+  .section{
+    background-color: #FFEA00;
+  }
+  .button1{
+    background-color: white;
+    height:40px;
+    width: 269px;
+      padding: 5px;
+      text-align: center;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      color: black; 
+      border-radius: 52px;
+        
+  }
+  
+
+
+
+
+/*-------------------------------------
+section-two start  here
+-------------------------------------- */
+section.section-two {
+  background: black;
+  color: #FFEA00;
+  
+}
+h4.section-two-header2 {
+  color: #FFEA00;
+  padding-left: 40%;
+  padding-top: 31px;
+  padding-bottom: 41px;
+}
+img.section2-img {
+  width: 110px;
+  height: 100px;
+  margin-left: 106px;
+    margin-right: 42px 
+}
+p.section2-para {
+  color: white;
+  padding: 24px;
+  padding-top: 5px 
+}
+h6.section2-h6 {
+  padding-top: 12px;
+  margin-left: 99px;
+}
+
+ 
+  .col-4 {
+    padding-top: 115px;
+}
+
+
+/*-------------------------------------
+section-three start  here
+-------------------------------------- */
+section.section-three {
+  background: black;
+  color:#FFEA00;
+}
+img.yellow-im {
+  width: 317px;
+  height: 288px;
+}
+h2.section-three-head {
+  padding-left: 40%;
+  padding-top: 39px;
+}
+p.section-three-para {
+  padding-left: 12%;
+  padding-top: 104px;
+  padding-right: 35px;
+}
+img.yellow-im {
+  border-radius: 27px;
+}
+/*-------------------------------------
+footer start  here
+-------------------------------------- */
+.container-fluid{
+  background-color:#FFEA00;
+}
+h2.footer-head {
+  margin-top: 77px;
+  margin-left: 128px;
+  font-weight: 700;
+}
+p.footer-para {
+  padding-top: 26px;
+  padding-left: 105px;
+  padding-right: 183px;
+  font-weight: 500;
+}
+.span-name {
+  padding-top: 94px;
+  font-weight: 600;
+  padding-bottom: 80px;
+  padding-left: 75px;
+}
+.footer-icons{
+    float: right;
+    list-style-type: none;
+
+}
+
+
+.footer-left {
+  margin-right: auto}
+  
+  .fa:hover {
+  color: #45405F;}
+  
+  .footer-icons {
+  justify-content: space-between;
+  padding: 16px 64px 0px 0px}
+  
+  .footer-icons ul {
+  list-style-type: none;}
+  
+  .footer-icons li {
+  display: inline-block;}
+  
+  .footer-right {
+  margin-left: auto}
+  
+  .copyright 
+  {
+  overflow: hidden;}
+
+  .fa {
+    padding: 5px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: black;
+    color: white;
+  }
+  .fa-linkedin {
+    background: black;
+    color: white;
+  }
+  
+  .fa-youtube {
+    background: black;
+    color: white;
+  }
+  .fa-instagram {
+    background: black;
+    color: white;
+  }
